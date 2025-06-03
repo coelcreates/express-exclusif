@@ -1,0 +1,46 @@
+# Nail Platform Project – Developer TODO List
+
+## Last Completed
+- [x] Watched UX/UI design and AI coding workflow videos
+- [x] Created Supabase project and `users` table
+- [x] Set up Next.js frontend with Tailwind
+- [x] Created backend file structure
+- [x] Drafted user flow
+- [x] Set up Cursor and Vercel
+
+## In Progress / Next Immediate Tasks
+- [x] Connect Supabase to frontend via `.env.local` and `supabaseClient.tsx`
+- [x] Test Supabase query in `pages/index.js`
+- [x] Create Railway account and scaffold Express backend in `backend/index.js`
+
+## Brainspace / AI-MCP Integration
+- [x] Add .cursorrules to codebase
+- [x] Draft PRD 
+
+## Optional for Current Session (45-minute blocks)
+- [x] Write or update Product Requirements Document (PRD)
+- [ ] Add `subscription_tiers` table relations in Supabase schema
+- [ ] Commit & push backend scaffold to GitHub
+
+## Notes for Next Session
+(Add one before ending each work session)
+- NEXT: connect railway and supabase endpoints to vercel, 
+        find inspo + create wireframe and mock-up, finalize brand design system
+
+
+## Current and Next Milestones 
+
+### Foundation Setup (Week 1–2)
+- [x] Set up GitHub repo and monorepo structure (`/frontend`, `/backend`)
+- [ ] Configure Vercel (frontend), Railway (backend), Supabase (DB + Storage)
+- [ ] Initialize Prisma schema and DB tables on Supabase
+- [ ] Implement static pages: Home, About, Trial Kit info
+- [ ] Deploy working landing site
+
+### Core E-Commerce (Week 3–4)
+- [ ] Build product catalog and product detail pages
+- [ ] Implement shopping cart and Stripe checkout for guest purchases
+- [ ] Develop user authentication (Clerk or Supabase)
+- [ ] Setup admin UI for adding products
+
+
